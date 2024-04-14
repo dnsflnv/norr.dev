@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪐 Dev I Norr</title>
+      <link>https://norr.dev</link>
+      <description>Last 10 notes on 🪐 Dev I Norr</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Dev I Norr — Home</title>
+    <link>https://norr.dev/</link>
+    <guid>https://norr.dev/</guid>
+    <description>Web/App developer, HEMA fencer, MTBiker, and cat lover. This is my digital garden (one more article) experiment. Contacts Blog updates Obsidian .</description>
+    <pubDate>Sun, 14 Apr 2024 22:14:45 GMT</pubDate>
+  </item><item>
+    <title>Contacts</title>
+    <link>https://norr.dev/Contacts</link>
+    <guid>https://norr.dev/Contacts</guid>
+    <description> dennis @ norr.dev x.com/dvnorr .</description>
+    <pubDate>Sun, 14 Apr 2024 21:30:44 GMT</pubDate>
+  </item><item>
+    <title>Obsidian</title>
+    <link>https://norr.dev/Blog/2024/03/Obsidian</link>
+    <guid>https://norr.dev/Blog/2024/03/Obsidian</guid>
+    <description>Trying Obsidian as a static site generator for my page. Looks nice.</description>
+    <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
