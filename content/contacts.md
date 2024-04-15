@@ -1,5 +1,4 @@
 ---
-icon: BoBxsContact
 title: Contacts
 ---
 - dennis @ norr.dev
