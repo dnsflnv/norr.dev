@@ -5,4 +5,4 @@ tags:
   - obsidian
   - digitalgarden
 ---
-Trying Obsidian as a static site generator for my page. Looks nice.
+Trying Quartz as a static site generator for my page and. Looks nice.
