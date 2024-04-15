@@ -1,6 +1,6 @@
 ---
 icon: BoBxsContact
-dg-publish: true
+title: Contacts
 ---
 - dennis @ norr.dev
 - https://x.com/dvnorr
