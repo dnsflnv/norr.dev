@@ -11,12 +11,8 @@
             "id": "d090f8ea5c02d47c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -150,19 +142,36 @@
   },
   "active": "d090f8ea5c02d47c",
   "lastOpenFiles": [
-    "contacts.md",
+    "attachments/index",
+    "attachments/index/IMG-20240510224838631.jpg",
+    "attachments",
     "Projects/index.md",
-    "Neuroscience/Nootropics",
-    "Astronomy/Untitled.md",
-    "Powerlifting",
-    "MTB",
-    "Productivity/Apps",
-    "Productivity",
-    "Neuroscience",
-    "Astronomy",
-    "HEMA",
-    "Books",
+    "Projects",
+    "Blog/index.md",
+    "Blog/2024/index.md",
+    "Blog/2024/04/index.md",
+    "Blog/2024/04",
+    "Blog/2024/03/index.md",
+    "contacts.md",
     "index.md",
-    "attachments"
+    "DSC_0936.jpg",
+    "Contacts.md",
+    "Blog/2024/03/Obsidian.md",
+    "Blog/2024/03",
+    "Blog/2024",
+    "Blog",
+    "attachments/index/IMG-20240510222640855.jpg",
+    "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
+    "attachments/Software/Code Editors/Visual Studio Code/Font",
+    "attachments/Software/Code Editors/Visual Studio Code",
+    "attachments/Software/Code Editors",
+    "attachments/Software",
+    "attachments/cf2f8af84677ec70242650c453ba1e8a_MD5.png",
+    "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
+    "attachments/index/IMG-20240510222903515.jpg",
+    "Software/Version Control/git.md",
+    "Dalarna.md",
+    "Software/Code Editors/Visual Studio Code/Font.md",
+    "Astronomy/Untitled.md"
   ]
 }
