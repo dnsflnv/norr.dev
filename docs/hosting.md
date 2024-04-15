@@ -250,3 +250,24 @@ server {
     }
 }
 ```
+<<<<<<< HEAD
+=======
+
+### Using Caddy
+
+Here's and example of how to do this with Caddy:
+
+```caddy title="Caddyfile"
+example.com {
+    root * /path/to/quartz/public
+    try_files {path} {path}.html {path}/ =404
+    file_server
+    encode gzip
+
+    handle_errors {
+        rewrite * /{err.status_code}.html
+        file_server
+    }
+}
+```
+>>>>>>> 038840ab (Update.)

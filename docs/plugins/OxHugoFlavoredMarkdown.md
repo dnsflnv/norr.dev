@@ -7,7 +7,11 @@ tags:
 This plugin provides support for [ox-hugo](https://github.com/kaushalmodi/ox-hugo) compatibility. See [[OxHugo compatibility]] for more information.
 
 > [!note]
+<<<<<<< HEAD
 > For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
+=======
+> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
+>>>>>>> 038840ab (Update.)
 
 This plugin accepts the following configuration options:
 

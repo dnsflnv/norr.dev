@@ -9,11 +9,19 @@ This plugin generates descriptions that are used as metadata for the HTML `head`
 If the frontmatter contains a `description` property, it is used (see [[authoring content#Syntax]]). Otherwise, the plugin will do its best to use the first few sentences of the content to reach the target description length.
 
 > [!note]
+<<<<<<< HEAD
 > For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
+=======
+> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
+>>>>>>> 038840ab (Update.)
 
 This plugin accepts the following configuration options:
 
 - `descriptionLength`: the maximum length of the generated description. Default is 150 characters. The cut off happens after the first _sentence_ that ends after the given length.
+<<<<<<< HEAD
+=======
+- `replaceExternalLinks`: If `true` (default), replace external links with their domain and path in the description (e.g. `https://domain.tld/some_page/another_page?query=hello&target=world` is replaced with `domain.tld/some_page/another_page`).
+>>>>>>> 038840ab (Update.)
 
 ## API
 

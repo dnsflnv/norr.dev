@@ -19,6 +19,10 @@ interface RenderComponents {
   footer: QuartzComponent
 }
 
+<<<<<<< HEAD
+=======
+const headerRegex = new RegExp(/h[1-6]/)
+>>>>>>> 038840ab (Update.)
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
@@ -105,6 +109,7 @@ export function renderPage(
           // header transclude
           blockRef = blockRef.slice(1)
           let startIdx = undefined
+<<<<<<< HEAD
           let endIdx = undefined
           for (const [i, el] of page.htmlAst.children.entries()) {
             if (el.type === "element" && el.tagName.match(/h[1-6]/)) {
@@ -117,6 +122,26 @@ export function renderPage(
               } else if (el.properties?.id === blockRef) {
                 startIdx = i
               }
+=======
+          let startDepth = undefined
+          let endIdx = undefined
+          for (const [i, el] of page.htmlAst.children.entries()) {
+            // skip non-headers
+            if (!(el.type === "element" && el.tagName.match(headerRegex))) continue
+            const depth = Number(el.tagName.substring(1))
+
+            // lookin for our blockref
+            if (startIdx === undefined || startDepth === undefined) {
+              // skip until we find the blockref that matches
+              if (el.properties?.id === blockRef) {
+                startIdx = i
+                startDepth = depth
+              }
+            } else if (depth <= startDepth) {
+              // looking for new header that is same level or higher
+              endIdx = i
+              break
+>>>>>>> 038840ab (Update.)
             }
           }
 
@@ -203,7 +228,11 @@ export function renderPage(
     </div>
   )
 
+<<<<<<< HEAD
   const lang = componentData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
+=======
+  const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
+>>>>>>> 038840ab (Update.)
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />

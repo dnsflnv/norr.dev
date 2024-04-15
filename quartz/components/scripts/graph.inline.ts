@@ -44,6 +44,10 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     opacityScale,
     removeTags,
     showTags,
+<<<<<<< HEAD
+=======
+    focusOnHover,
+>>>>>>> 038840ab (Update.)
   } = JSON.parse(graph.dataset["cfg"]!)
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
@@ -189,6 +193,11 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     return 2 + Math.sqrt(numLinks)
   }
 
+<<<<<<< HEAD
+=======
+  let connectedNodes: SimpleSlug[] = []
+
+>>>>>>> 038840ab (Update.)
   // draw individual nodes
   const node = graphNode
     .append("circle")
@@ -202,17 +211,37 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       window.spaNavigate(new URL(targ, window.location.toString()))
     })
     .on("mouseover", function (_, d) {
+<<<<<<< HEAD
       const neighbours: SimpleSlug[] = data.get(slug)?.links ?? []
       const neighbourNodes = d3
         .selectAll<HTMLElement, NodeData>(".node")
         .filter((d) => neighbours.includes(d.id))
+=======
+>>>>>>> 038840ab (Update.)
       const currentId = d.id
       const linkNodes = d3
         .selectAll(".link")
         .filter((d: any) => d.source.id === currentId || d.target.id === currentId)
 
+<<<<<<< HEAD
       // highlight neighbour nodes
       neighbourNodes.transition().duration(200).attr("fill", color)
+=======
+      if (focusOnHover) {
+        // fade out non-neighbour nodes
+        connectedNodes = linkNodes.data().flatMap((d: any) => [d.source.id, d.target.id])
+
+        d3.selectAll<HTMLElement, NodeData>(".link")
+          .transition()
+          .duration(200)
+          .style("opacity", 0.2)
+        d3.selectAll<HTMLElement, NodeData>(".node")
+          .filter((d) => !connectedNodes.includes(d.id))
+          .transition()
+          .duration(200)
+          .style("opacity", 0.2)
+      }
+>>>>>>> 038840ab (Update.)
 
       // highlight links
       linkNodes.transition().duration(200).attr("stroke", "var(--gray)").attr("stroke-width", 1)
@@ -231,6 +260,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
         .style("font-size", bigFont + "em")
     })
     .on("mouseleave", function (_, d) {
+<<<<<<< HEAD
+=======
+      if (focusOnHover) {
+        d3.selectAll<HTMLElement, NodeData>(".link").transition().duration(200).style("opacity", 1)
+        d3.selectAll<HTMLElement, NodeData>(".node").transition().duration(200).style("opacity", 1)
+      }
+>>>>>>> 038840ab (Update.)
       const currentId = d.id
       const linkNodes = d3
         .selectAll(".link")

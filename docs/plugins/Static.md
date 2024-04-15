@@ -10,7 +10,11 @@ This plugin emits all static resources needed by Quartz. This is used, for examp
 > This is different from [[Assets]]. The resources from the [[Static]] plugin are located under `quartz/static`, whereas [[Assets]] renders all static resources under `content` and is used for images, videos, audio, etc. that are directly referenced by your markdown content.
 
 > [!note]
+<<<<<<< HEAD
 > For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
+=======
+> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
+>>>>>>> 038840ab (Update.)
 
 This plugin has no configuration options.
 

@@ -7,7 +7,11 @@ tags:
 This plugin manages and emits the static resources required for the Quartz framework. This includes CSS stylesheets and JavaScript scripts that enhance the functionality and aesthetics of the generated site. See also the `cdnCaching` option in the `theme` section of the [[configuration]].
 
 > [!note]
+<<<<<<< HEAD
 > For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
+=======
+> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
+>>>>>>> 038840ab (Update.)
 
 This plugin has no configuration options.
 

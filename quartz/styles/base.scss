@@ -79,6 +79,14 @@ a {
       border-radius: 0;
       padding: 0;
     }
+<<<<<<< HEAD
+=======
+    &.tag-link {
+      &::before {
+        content: "#";
+      }
+    }
+>>>>>>> 038840ab (Update.)
   }
 
   &.external .external-icon {
@@ -508,3 +516,11 @@ ol.overflow {
     padding-left: 1rem;
   }
 }
+<<<<<<< HEAD
+=======
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+>>>>>>> 038840ab (Update.)

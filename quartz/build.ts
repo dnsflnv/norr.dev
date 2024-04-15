@@ -309,6 +309,11 @@ async function partialRebuildFromEntrypoint(
   }
   await rimraf([...destinationsToDelete])
 
+<<<<<<< HEAD
+=======
+  console.log(chalk.green(`Done rebuilding in ${perf.timeSince()}`))
+
+>>>>>>> 038840ab (Update.)
   toRemove.clear()
   release()
   clientRefresh()
