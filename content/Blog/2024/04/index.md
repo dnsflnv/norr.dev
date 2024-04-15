@@ -1,3 +1,3 @@
 ---
-title: April 2024
+title: April
 ---
