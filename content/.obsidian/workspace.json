@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md",
+                "file": "Software/Code Editors/Visual Studio Code/Font.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md",
+                "file": "Software/Code Editors/Visual Studio Code/Font.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md",
+                "file": "Software/Code Editors/Visual Studio Code/Font.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md"
+                "file": "Software/Code Editors/Visual Studio Code/Font.md"
               }
             }
           }
@@ -151,7 +151,7 @@
   "active": "d090f8ea5c02d47c",
   "lastOpenFiles": [
     "attachments/cf2f8af84677ec70242650c453ba1e8a_MD5.png",
-    "Software/Code Editors/Visual Studio Code/index.md",
+    "Software/Code Editors/Visual Studio Code/Font.md",
     "Software/Code Editors/Visual Studio Code",
     "Software/Code Editors",
     "Software",
