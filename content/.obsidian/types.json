@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "logFood": "checkbox",
+    "playCat": "checkbox",
+    "protein": "number",
+    "done": "checkbox",
+    "nicorette": "number",
+    "catFood": "text",
+    "catSheet": "number",
+    "noopept": "number",
+    "date": "date"
+  }
+}

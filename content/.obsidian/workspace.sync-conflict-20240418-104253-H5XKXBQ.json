@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/index.md"
+                "file": "index.md"
               }
             }
           }
@@ -148,17 +148,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d090f8ea5c02d47c",
+  "active": "111927586a126ba8",
   "lastOpenFiles": [
-    "attachments/cf2f8af84677ec70242650c453ba1e8a_MD5.png",
-    "Software/Code Editors/Visual Studio Code/index.md",
-    "Software/Code Editors/Visual Studio Code",
-    "Software/Code Editors",
-    "Software",
+    "Management",
     "contacts.md",
-    "Software/Visual Studio Code.md",
-    "Software",
-    "index.md",
     "Projects/index.md",
     "Neuroscience/Nootropics",
     "Astronomy/Untitled.md",
@@ -166,6 +159,11 @@
     "MTB",
     "Productivity/Apps",
     "Productivity",
-    "Neuroscience"
+    "Neuroscience",
+    "Astronomy",
+    "HEMA",
+    "Books",
+    "index.md",
+    "attachments"
   ]
 }
