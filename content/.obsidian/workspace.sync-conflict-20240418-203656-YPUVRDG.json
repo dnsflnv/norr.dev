@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -148,25 +148,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "111927586a126ba8",
+  "active": "d090f8ea5c02d47c",
   "lastOpenFiles": [
-    "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
-    "Dalarna.md",
+    "contacts.md",
+    "Refactor SelectObjectView.pdf",
+    "index.md",
     "Software/Code Editors/Visual Studio Code/Font.md",
     "attachments/cf2f8af84677ec70242650c453ba1e8a_MD5.png",
     "Software/Code Editors/Visual Studio Code",
     "Software/Code Editors",
     "Software",
-    "Management",
-    "contacts.md",
+    "Software/Visual Studio Code.md",
+    "Software",
     "Projects/index.md",
     "Neuroscience/Nootropics",
     "Astronomy/Untitled.md",
     "Powerlifting",
     "MTB",
     "Productivity/Apps",
-    "Productivity",
-    "Neuroscience",
-    "index.md"
+    "Productivity"
   ]
 }
