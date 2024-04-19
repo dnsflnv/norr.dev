@@ -1,1 +1,0 @@
-![](attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg)

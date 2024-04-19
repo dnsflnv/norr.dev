@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Software/Version Control/git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Software/Version Control/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Software/Version Control/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Software/Version Control/git.md"
               }
             }
           }
@@ -148,8 +148,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "111927586a126ba8",
+  "active": "d090f8ea5c02d47c",
   "lastOpenFiles": [
+    "index.md",
     "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
     "Dalarna.md",
     "Software/Code Editors/Visual Studio Code/Font.md",
@@ -166,7 +167,6 @@
     "MTB",
     "Productivity/Apps",
     "Productivity",
-    "Neuroscience",
-    "index.md"
+    "Neuroscience"
   ]
 }
