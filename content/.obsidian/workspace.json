@@ -11,8 +11,17 @@
             "id": "d090f8ea5c02d47c",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "empty",
               "state": {}
+=======
+              "type": "markdown",
+              "state": {
+                "file": "Software/Version Control/git.md",
+                "mode": "source",
+                "source": false
+              }
+>>>>>>> 4713612b (Update.)
             }
           }
         ]
@@ -81,6 +90,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Software/Version Control/git.md",
+>>>>>>> 4713612b (Update.)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Software/Version Control/git.md",
+>>>>>>> 4713612b (Update.)
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +135,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
               "state": {}
+=======
+              "state": {
+                "file": "Software/Version Control/git.md"
+              }
+>>>>>>> 4713612b (Update.)
             }
           }
         ]
@@ -142,6 +165,7 @@
   },
   "active": "d090f8ea5c02d47c",
   "lastOpenFiles": [
+    "index.md",
     "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
     "Software/Version Control/git.md",
     "Software/Version Control",
@@ -155,6 +179,7 @@
     "attachments/index/IMG-20240510224838631.jpg",
     "attachments",
     "Projects/index.md",
+<<<<<<< HEAD
     "Projects",
     "Blog/index.md",
     "Blog/2024/index.md",
@@ -173,5 +198,14 @@
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
     "attachments/index/IMG-20240510222903515.jpg",
     "Astronomy/Untitled.md"
+=======
+    "Neuroscience/Nootropics",
+    "Astronomy/Untitled.md",
+    "Powerlifting",
+    "MTB",
+    "Productivity/Apps",
+    "Productivity",
+    "Neuroscience"
+>>>>>>> 4713612b (Update.)
   ]
 }

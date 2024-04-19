@@ -1,3 +1,11 @@
+---
+tags:
+  - git
+  - stash
+  - rebase
+  - amend
+  - version
+---
 ## Rebase
 
 ```bash 
@@ -25,7 +33,6 @@ git stash pop #restore
 git commit --amend --no-edit
 git push origin +my_branch 
 ```
-`
 ## Delete the last commit
 
 ```bash 
