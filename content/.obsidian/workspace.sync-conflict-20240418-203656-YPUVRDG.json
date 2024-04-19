@@ -11,8 +11,12 @@
             "id": "d090f8ea5c02d47c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
         ]
@@ -142,36 +150,22 @@
   },
   "active": "d090f8ea5c02d47c",
   "lastOpenFiles": [
-    "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
-    "Software/Version Control/git.md",
-    "Software/Version Control",
-    "Dalarna.md",
+    "contacts.md",
+    "Refactor SelectObjectView.pdf",
+    "index.md",
     "Software/Code Editors/Visual Studio Code/Font.md",
     "attachments/cf2f8af84677ec70242650c453ba1e8a_MD5.png",
-    "Software/Code Editors/Visual Studio Code/index.md",
     "Software/Code Editors/Visual Studio Code",
     "Software/Code Editors",
-    "attachments/index",
-    "attachments/index/IMG-20240510224838631.jpg",
-    "attachments",
+    "Software",
+    "Software/Visual Studio Code.md",
+    "Software",
     "Projects/index.md",
-    "Projects",
-    "Blog/index.md",
-    "Blog/2024/index.md",
-    "Blog/2024/04/index.md",
-    "Blog/2024/04",
-    "Blog/2024/03/index.md",
-    "contacts.md",
-    "index.md",
-    "DSC_0936.jpg",
-    "Contacts.md",
-    "Blog/2024/03/Obsidian.md",
-    "Blog/2024/03",
-    "Blog/2024",
-    "Blog",
-    "attachments/index/IMG-20240510222640855.jpg",
-    "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
-    "attachments/index/IMG-20240510222903515.jpg",
-    "Astronomy/Untitled.md"
+    "Neuroscience/Nootropics",
+    "Astronomy/Untitled.md",
+    "Powerlifting",
+    "MTB",
+    "Productivity/Apps",
+    "Productivity"
   ]
 }
