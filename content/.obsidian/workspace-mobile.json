@@ -11,12 +11,17 @@
             "id": "d140a3fac41d2d17",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
                 "file": "Dalarna.md",
                 "mode": "preview",
                 "source": true
               }
+=======
+              "type": "empty",
+              "state": {}
+>>>>>>> d9f68a7a (Update)
             }
           }
         ]
@@ -85,7 +90,10 @@
         "state": {
           "type": "backlink",
           "state": {
+<<<<<<< HEAD
             "file": "Dalarna.md",
+=======
+>>>>>>> d9f68a7a (Update)
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +110,10 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+<<<<<<< HEAD
             "file": "Dalarna.md",
+=======
+>>>>>>> d9f68a7a (Update)
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +124,13 @@
         "type": "leaf",
         "state": {
           "type": "outline",
+<<<<<<< HEAD
           "state": {
             "file": "Dalarna.md"
           }
+=======
+          "state": {}
+>>>>>>> d9f68a7a (Update)
         }
       }
     ],

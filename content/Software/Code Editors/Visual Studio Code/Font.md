@@ -1,4 +1,9 @@
 JetBrains Mono is the best font for VS Code.
 [https://www.jetbrains.com/lp/mono/](https://www.jetbrains.com/lp/mono/)
-[](attachments/cf2f8af84677ec70242650c453ba1e8a_MD5.png)
-![](attachments/cf2f8af84677ec70242650c453ba1e8a_MD5.png)
+<<<<<<< HEAD
+[](attachments/Software/Code%20Editors/Visual%20Studio%20Code/Font/IMG-20240510225442242.png)
+![](attachments/Software/Code%20Editors/Visual%20Studio%20Code/Font/IMG-20240510225442242.png)
+=======
+[](attachments/Software/Code%20Editors/Visual%20Studio%20Code/Font/IMG-20240510222640775.png)
+![](attachments/Software/Code%20Editors/Visual%20Studio%20Code/Font/IMG-20240510222640775.png)
+>>>>>>> d9f68a7a (Update)

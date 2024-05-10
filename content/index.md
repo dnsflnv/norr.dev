@@ -8,4 +8,5 @@ This is my [digital garden](https://www.technologyreview.com/2020/09/03/1007716/
 [Open: DSC_0936.jpg](attachments/index/IMG-20240510224838631.jpg)
 ![](attachments/index/IMG-20240510224838631.jpg)
 
+
 **[Contacts](contacts.md)**
