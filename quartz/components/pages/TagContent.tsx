@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
-=======
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
->>>>>>> 038840ab (Update.)
 import style from "../styles/listPage.scss"
 import { PageList } from "../PageList"
 import { FullSlug, getAllSegmentPrefixes, simplifySlug } from "../../util/path"
@@ -12,11 +8,7 @@ import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 
 const numPages = 10
-<<<<<<< HEAD
-function TagContent(props: QuartzComponentProps) {
-=======
 const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
->>>>>>> 038840ab (Update.)
   const { tree, fileData, allFiles, cfg } = props
   const slug = fileData.slug
 
@@ -60,10 +52,6 @@ const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
               allFiles: pages,
             }
 
-<<<<<<< HEAD
-            const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`)[0]
-            const content = contentPage?.description
-=======
             const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`).at(0)
 
             const root = contentPage?.htmlAst
@@ -72,16 +60,11 @@ const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
                 ? contentPage?.description
                 : htmlToJsx(contentPage.filePath!, root)
 
->>>>>>> 038840ab (Update.)
             return (
               <div>
                 <h2>
                   <a class="internal tag-link" href={`../tags/${tag}`}>
-<<<<<<< HEAD
-                    #{tag}
-=======
                     {tag}
->>>>>>> 038840ab (Update.)
                   </a>
                 </h2>
                 {content && <p>{content}</p>}

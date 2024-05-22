@@ -39,8 +39,6 @@ a & b & c
 \end{bmatrix}
 $$
 
-<<<<<<< HEAD
-=======
 $$
 \begin{array}{rll}
 E \psi &= H\psi & \text{Expanding the Hamiltonian Operator} \\
@@ -52,7 +50,6 @@ Ef(x) &= -\frac{\hbar^2}{2m} [4k^2x^2f(x)-4kxf'(x) + f''(x)] + \frac{1}{2}m\omeg
 \end{array}
 $$
 
->>>>>>> 038840ab (Update.)
 > [!warn]
 > Due to limitations in the [underlying parsing library](https://github.com/remarkjs/remark-math), block math in Quartz requires the `$$` delimiters to be on newlines like above.
 

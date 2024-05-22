@@ -1,10 +1,7 @@
 import { i18n } from "../i18n"
 import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
-<<<<<<< HEAD
-=======
 import { googleFontHref } from "../util/theme"
->>>>>>> 038840ab (Update.)
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 export default (() => {
@@ -25,18 +22,11 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
-<<<<<<< HEAD
-        {cfg.theme.cdnCaching && (
-          <>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" />
-=======
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
->>>>>>> 038840ab (Update.)
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

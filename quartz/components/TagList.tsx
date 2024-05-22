@@ -9,19 +9,11 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
     return (
       <ul class={classNames(displayClass, "tags")}>
         {tags.map((tag) => {
-<<<<<<< HEAD
-          const display = `#${tag}`
-=======
->>>>>>> 038840ab (Update.)
           const linkDest = baseDir + `/tags/${slugTag(tag)}`
           return (
             <li>
               <a href={linkDest} class="internal tag-link">
-<<<<<<< HEAD
-                {display}
-=======
                 {tag}
->>>>>>> 038840ab (Update.)
               </a>
             </li>
           )

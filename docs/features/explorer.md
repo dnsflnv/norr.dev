@@ -61,11 +61,7 @@ export class FileNode {
   children: FileNode[]  // children of current node
   name: string  // last part of slug
   displayName: string // what actually should be displayed in the explorer
-<<<<<<< HEAD
-  file: QuartzPluginData | null // set if node is a file, see `QuartzPluginData` for more detail
-=======
   file: QuartzPluginData | null // if node is a file, this is the file's metadata. See `QuartzPluginData` for more detail
->>>>>>> 038840ab (Update.)
   depth: number // depth of current node
 
   ... // rest of implementation
@@ -171,8 +167,6 @@ Component.Explorer({
 
 You can customize this by changing the entries of the `omit` set. Simply add all folder or file names you want to remove.
 
-<<<<<<< HEAD
-=======
 ### Remove files by tag
 
 You can access the frontmatter of a file by `node.file?.frontmatter?`. This allows you to filter out files based on their frontmatter, for example by their tags.
@@ -186,7 +180,6 @@ Component.Explorer({
 })
 ```
 
->>>>>>> 038840ab (Update.)
 ### Show every element in explorer
 
 To override the default filter function that removes the `tags` folder from the explorer, you can set the filter function to `undefined`.

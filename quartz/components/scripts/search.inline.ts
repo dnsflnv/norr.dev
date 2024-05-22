@@ -21,10 +21,7 @@ let index = new FlexSearch.Document<Item>({
   encode: encoder,
   document: {
     id: "id",
-<<<<<<< HEAD
-=======
     tag: "tags",
->>>>>>> 038840ab (Update.)
     index: [
       {
         field: "title",
@@ -409,13 +406,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
     let searchResults: FlexSearch.SimpleDocumentSearchResultSetUnit[]
     if (searchType === "tags") {
-<<<<<<< HEAD
-      searchResults = await index.searchAsync({
-        query: currentSearchTerm.substring(1),
-        limit: numSearchResults,
-        index: ["tags"],
-      })
-=======
       currentSearchTerm = currentSearchTerm.substring(1).trim()
       const separatorIndex = currentSearchTerm.indexOf(" ")
       if (separatorIndex != -1) {
@@ -443,7 +433,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
           index: ["tags"],
         })
       }
->>>>>>> 038840ab (Update.)
     } else if (searchType === "basic") {
       searchResults = await index.searchAsync({
         query: currentSearchTerm,

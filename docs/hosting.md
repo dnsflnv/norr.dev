@@ -250,8 +250,6 @@ server {
     }
 }
 ```
-<<<<<<< HEAD
-=======
 
 ### Using Caddy
 
@@ -270,4 +268,3 @@ example.com {
     }
 }
 ```
->>>>>>> 038840ab (Update.)

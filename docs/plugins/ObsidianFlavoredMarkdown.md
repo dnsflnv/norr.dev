@@ -7,11 +7,7 @@ tags:
 This plugin provides support for [[Obsidian compatibility]].
 
 > [!note]
-<<<<<<< HEAD
-> For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
-=======
 > For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
->>>>>>> 038840ab (Update.)
 
 This plugin accepts the following configuration options:
 
@@ -24,11 +20,7 @@ This plugin accepts the following configuration options:
 - `parseArrows`: If `true` (default), transforms arrow symbols into their HTML character equivalents.
 - `parseBlockReferences`: If `true` (default), handles block references, linking to specific content blocks.
 - `enableInHtmlEmbed`: If `true`, allows embedding of content directly within HTML. Defaults to `false`.
-<<<<<<< HEAD
-- `enableYouTubeEmbed`: If `true` (default), enables the embedding of YouTube videos using external image Markdown syntax.
-=======
 - `enableYouTubeEmbed`: If `true` (default), enables the embedding of YouTube videos and playlists using external image Markdown syntax.
->>>>>>> 038840ab (Update.)
 - `enableVideoEmbed`: If `true` (default), enables the embedding of video files.
 - `enableCheckbox`: If `true`, adds support for interactive checkboxes in content. Defaults to `false`.
 

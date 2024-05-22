@@ -5,18 +5,11 @@ import { escapeHTML } from "../../util/escape"
 
 export interface Options {
   descriptionLength: number
-<<<<<<< HEAD
-=======
   replaceExternalLinks: boolean
->>>>>>> 038840ab (Update.)
 }
 
 const defaultOptions: Options = {
   descriptionLength: 150,
-<<<<<<< HEAD
-}
-
-=======
   replaceExternalLinks: true,
 }
 
@@ -25,7 +18,6 @@ const urlRegex = new RegExp(
   "g",
 )
 
->>>>>>> 038840ab (Update.)
 export const Description: QuartzTransformerPlugin<Partial<Options> | undefined> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
   return {
@@ -34,24 +26,6 @@ export const Description: QuartzTransformerPlugin<Partial<Options> | undefined> 
       return [
         () => {
           return async (tree: HTMLRoot, file) => {
-<<<<<<< HEAD
-            const frontMatterDescription = file.data.frontmatter?.description
-            const text = escapeHTML(toString(tree))
-
-            const desc = frontMatterDescription ?? text
-            const sentences = desc.replace(/\s+/g, " ").split(".")
-            let finalDesc = ""
-            let sentenceIdx = 0
-            const len = opts.descriptionLength
-            while (finalDesc.length < len) {
-              const sentence = sentences[sentenceIdx]
-              if (!sentence) break
-              finalDesc += sentence + "."
-              sentenceIdx++
-            }
-
-            file.data.description = finalDesc
-=======
             let frontMatterDescription = file.data.frontmatter?.description
             let text = escapeHTML(toString(tree))
 
@@ -92,7 +66,6 @@ export const Description: QuartzTransformerPlugin<Partial<Options> | undefined> 
             }
 
             file.data.description = finalDesc.join(" ")
->>>>>>> 038840ab (Update.)
             file.data.text = text
           }
         },

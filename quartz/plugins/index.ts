@@ -18,8 +18,6 @@ export function getStaticResourcesFromPlugins(ctx: BuildCtx) {
     }
   }
 
-<<<<<<< HEAD
-=======
   // if serving locally, listen for rebuilds and reload the page
   if (ctx.argv.serve) {
     const wsUrl = ctx.argv.remoteDevHost
@@ -37,7 +35,6 @@ export function getStaticResourcesFromPlugins(ctx: BuildCtx) {
     })
   }
 
->>>>>>> 038840ab (Update.)
   return staticResources
 }
 

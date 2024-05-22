@@ -90,10 +90,7 @@ declare module "vfile" {
         description: string
         publish: boolean
         draft: boolean
-<<<<<<< HEAD
-=======
         lang: string
->>>>>>> 038840ab (Update.)
         enableToc: string
         cssclasses: string[]
       }>

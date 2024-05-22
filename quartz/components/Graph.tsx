@@ -17,10 +17,7 @@ export interface D3Config {
   opacityScale: number
   removeTags: string[]
   showTags: boolean
-<<<<<<< HEAD
-=======
   focusOnHover?: boolean
->>>>>>> 038840ab (Update.)
 }
 
 interface GraphOptions {
@@ -41,10 +38,7 @@ const defaultOptions: GraphOptions = {
     opacityScale: 1,
     showTags: true,
     removeTags: [],
-<<<<<<< HEAD
-=======
     focusOnHover: false,
->>>>>>> 038840ab (Update.)
   },
   globalGraph: {
     drag: true,
@@ -58,10 +52,7 @@ const defaultOptions: GraphOptions = {
     opacityScale: 1,
     showTags: true,
     removeTags: [],
-<<<<<<< HEAD
-=======
     focusOnHover: true,
->>>>>>> 038840ab (Update.)
   },
 }
 

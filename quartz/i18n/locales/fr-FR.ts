@@ -54,11 +54,7 @@ export default {
       title: "Table des Matières",
     },
     contentMeta: {
-<<<<<<< HEAD
-      readingTime: ({ minutes }) => `${minutes} min read`,
-=======
       readingTime: ({ minutes }) => `${minutes} min de lecture`,
->>>>>>> 038840ab (Update.)
     },
   },
   pages: {
@@ -67,11 +63,7 @@ export default {
       lastFewNotes: ({ count }) => `Les dernières ${count} notes`,
     },
     error: {
-<<<<<<< HEAD
-      title: "Pas trouvé",
-=======
       title: "Introuvable",
->>>>>>> 038840ab (Update.)
       notFound: "Cette page est soit privée, soit elle n'existe pas.",
     },
     folderContent: {

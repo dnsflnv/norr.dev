@@ -8,29 +8,18 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-<<<<<<< HEAD
-    pageTitle: "🪴 Quartz 4.0",
-=======
     pageTitle: "Dev I Norr",
->>>>>>> 038840ab (Update.)
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "google", tagID: "G-BGN0QWWTVG"
     },
     locale: "en-US",
-<<<<<<< HEAD
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
-    theme: {
-=======
     baseUrl: "norr.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
->>>>>>> 038840ab (Update.)
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
@@ -84,11 +73,7 @@ const config: QuartzConfig = {
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
-<<<<<<< HEAD
-      Plugin.ComponentResources({ fontOrigin: "googleFonts" }),
-=======
       Plugin.ComponentResources(),
->>>>>>> 038840ab (Update.)
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
@@ -103,8 +88,4 @@ const config: QuartzConfig = {
   },
 }
 
-<<<<<<< HEAD
 export default config
-=======
-export default config
->>>>>>> 038840ab (Update.)

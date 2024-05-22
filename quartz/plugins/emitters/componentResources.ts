@@ -8,10 +8,6 @@ import popoverScript from "../../components/scripts/popover.inline"
 import styles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
 import { BuildCtx } from "../../util/ctx"
-<<<<<<< HEAD
-import { StaticResources } from "../../util/resources"
-=======
->>>>>>> 038840ab (Update.)
 import { QuartzComponent } from "../../components/types"
 import { googleFontHref, joinStyles } from "../../util/theme"
 import { Features, transform } from "lightningcss"
@@ -72,18 +68,8 @@ async function joinScripts(scripts: string[]): Promise<string> {
   return res.code
 }
 
-<<<<<<< HEAD
-function addGlobalPageResources(
-  ctx: BuildCtx,
-  staticResources: StaticResources,
-  componentResources: ComponentResources,
-) {
-  const cfg = ctx.cfg.configuration
-  const reloadScript = ctx.argv.serve
-=======
 function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentResources) {
   const cfg = ctx.cfg.configuration
->>>>>>> 038840ab (Update.)
 
   // popovers
   if (cfg.enablePopovers) {
@@ -93,21 +79,12 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
 
   if (cfg.analytics?.provider === "google") {
     const tagId = cfg.analytics.tagId
-<<<<<<< HEAD
-    staticResources.js.push({
-      src: `https://www.googletagmanager.com/gtag/js?id=${tagId}`,
-      contentType: "external",
-      loadTime: "afterDOMReady",
-    })
-    componentResources.afterDOMLoaded.push(`
-=======
     componentResources.afterDOMLoaded.push(`
       const gtagScript = document.createElement("script")
       gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=${tagId}"
       gtagScript.async = true
       document.head.appendChild(gtagScript)
 
->>>>>>> 038840ab (Update.)
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag("js", new Date());
@@ -137,18 +114,12 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
   } else if (cfg.analytics?.provider === "umami") {
     componentResources.afterDOMLoaded.push(`
       const umamiScript = document.createElement("script")
-<<<<<<< HEAD
-      umamiScript.src = "${cfg.analytics.host}" ?? "https://analytics.umami.is/script.js"
-=======
       umamiScript.src = "${cfg.analytics.host ?? "https://analytics.umami.is"}/script.js"
->>>>>>> 038840ab (Update.)
       umamiScript.setAttribute("data-website-id", "${cfg.analytics.websiteId}")
       umamiScript.async = true
 
       document.head.appendChild(umamiScript)
     `)
-<<<<<<< HEAD
-=======
   } else if (cfg.analytics?.provider === "goatcounter") {
     componentResources.afterDOMLoaded.push(`
       const goatcounterScript = document.createElement("script")
@@ -165,7 +136,6 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       posthog.init('${cfg.analytics.apiKey}',{api_host:'${cfg.analytics.host ?? "https://app.posthog.com"}'})\`
       document.head.appendChild(posthogScript)
     `)
->>>>>>> 038840ab (Update.)
   }
 
   if (cfg.enableSPA) {
@@ -178,125 +148,25 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.dispatchEvent(event)
     `)
   }
-<<<<<<< HEAD
-
-  let wsUrl = `ws://localhost:${ctx.argv.wsPort}`
-
-  if (ctx.argv.remoteDevHost) {
-    wsUrl = `wss://${ctx.argv.remoteDevHost}:${ctx.argv.wsPort}`
-  }
-
-  if (reloadScript) {
-    staticResources.js.push({
-      loadTime: "afterDOMReady",
-      contentType: "inline",
-      script: `
-          const socket = new WebSocket('${wsUrl}')
-          // reload(true) ensures resources like images and scripts are fetched again in firefox
-          socket.addEventListener('message', () => document.location.reload(true))
-        `,
-    })
-  }
-}
-
-interface Options {
-  fontOrigin: "googleFonts" | "local"
-}
-
-const defaultOptions: Options = {
-  fontOrigin: "googleFonts",
-}
-
-export const ComponentResources: QuartzEmitterPlugin<Options> = (opts?: Partial<Options>) => {
-  const { fontOrigin } = { ...defaultOptions, ...opts }
-=======
 }
 
 // This emitter should not update the `resources` parameter. If it does, partial
 // rebuilds may not work as expected.
 export const ComponentResources: QuartzEmitterPlugin = () => {
->>>>>>> 038840ab (Update.)
   return {
     name: "ComponentResources",
     getQuartzComponents() {
       return []
     },
-<<<<<<< HEAD
-    async getDependencyGraph(ctx, content, _resources) {
-      // This emitter adds static resources to the `resources` parameter. One
-      // important resource this emitter adds is the code to start a websocket
-      // connection and listen to rebuild messages, which triggers a page reload.
-      // The resources parameter with the reload logic is later used by the
-      // ContentPage emitter while creating the final html page. In order for
-      // the reload logic to be included, and so for partial rebuilds to work,
-      // we need to run this emitter for all markdown files.
-      const graph = new DepGraph<FilePath>()
-
-      for (const [_tree, file] of content) {
-        const sourcePath = file.data.filePath!
-        const slug = file.data.slug!
-        graph.addEdge(sourcePath, joinSegments(ctx.argv.output, slug + ".html") as FilePath)
-      }
-
-      return graph
-    },
-    async emit(ctx, _content, resources): Promise<FilePath[]> {
-=======
     async getDependencyGraph(_ctx, _content, _resources) {
       return new DepGraph<FilePath>()
     },
     async emit(ctx, _content, _resources): Promise<FilePath[]> {
->>>>>>> 038840ab (Update.)
       const promises: Promise<FilePath>[] = []
       const cfg = ctx.cfg.configuration
       // component specific scripts and styles
       const componentResources = getComponentResources(ctx)
       let googleFontsStyleSheet = ""
-<<<<<<< HEAD
-      if (fontOrigin === "local") {
-        // let the user do it themselves in css
-      } else if (fontOrigin === "googleFonts") {
-        if (cfg.theme.cdnCaching) {
-          resources.css.push(googleFontHref(cfg.theme))
-        } else {
-          let match
-
-          const fontSourceRegex = /url\((https:\/\/fonts.gstatic.com\/s\/[^)]+\.(woff2|ttf))\)/g
-
-          googleFontsStyleSheet = await (
-            await fetch(googleFontHref(ctx.cfg.configuration.theme))
-          ).text()
-
-          while ((match = fontSourceRegex.exec(googleFontsStyleSheet)) !== null) {
-            // match[0] is the `url(path)`, match[1] is the `path`
-            const url = match[1]
-            // the static name of this file.
-            const [filename, ext] = url.split("/").pop()!.split(".")
-
-            googleFontsStyleSheet = googleFontsStyleSheet.replace(
-              url,
-              `/static/fonts/${filename}.ttf`,
-            )
-
-            promises.push(
-              fetch(url)
-                .then((res) => {
-                  if (!res.ok) {
-                    throw new Error(`Failed to fetch font`)
-                  }
-                  return res.arrayBuffer()
-                })
-                .then((buf) =>
-                  write({
-                    ctx,
-                    slug: joinSegments("static", "fonts", filename) as FullSlug,
-                    ext: `.${ext}`,
-                    content: Buffer.from(buf),
-                  }),
-                ),
-            )
-          }
-=======
       if (cfg.theme.fontOrigin === "local") {
         // let the user do it themselves in css
       } else if (cfg.theme.fontOrigin === "googleFonts" && !cfg.theme.cdnCaching) {
@@ -337,18 +207,13 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
                 }),
               ),
           )
->>>>>>> 038840ab (Update.)
         }
       }
 
       // important that this goes *after* component scripts
       // as the "nav" event gets triggered here and we should make sure
       // that everyone else had the chance to register a listener for it
-<<<<<<< HEAD
-      addGlobalPageResources(ctx, resources, componentResources)
-=======
       addGlobalPageResources(ctx, componentResources)
->>>>>>> 038840ab (Update.)
 
       const stylesheet = joinStyles(
         ctx.cfg.configuration.theme,

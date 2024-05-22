@@ -26,11 +26,7 @@ The emitter supports the following aliases:
 - `alias`
 
 > [!note]
-<<<<<<< HEAD
-> For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
-=======
 > For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
->>>>>>> 038840ab (Update.)
 
 This plugin has no configuration options.
 

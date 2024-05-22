@@ -3,29 +3,20 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
-<<<<<<< HEAD
-=======
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
->>>>>>> 038840ab (Update.)
 
 interface ContentMetaOptions {
   /**
    * Whether to display reading time
    */
   showReadingTime: boolean
-<<<<<<< HEAD
-=======
   showComma: boolean
->>>>>>> 038840ab (Update.)
 }
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
-<<<<<<< HEAD
-=======
   showComma: true,
->>>>>>> 038840ab (Update.)
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -36,11 +27,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const text = fileData.text
 
     if (text) {
-<<<<<<< HEAD
-      const segments: string[] = []
-=======
       const segments: (string | JSX.Element)[] = []
->>>>>>> 038840ab (Update.)
 
       if (fileData.dates) {
         segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
@@ -55,9 +42,6 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(displayedTime)
       }
 
-<<<<<<< HEAD
-      return <p class={classNames(displayClass, "content-meta")}>{segments.join(", ")}</p>
-=======
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 
       return (
@@ -65,22 +49,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
           {segmentsElements}
         </p>
       )
->>>>>>> 038840ab (Update.)
     } else {
       return null
     }
   }
 
-<<<<<<< HEAD
-  ContentMetadata.css = `
-  .content-meta {
-    margin-top: 0;
-    color: var(--gray);
-  }
-  `
-=======
   ContentMetadata.css = style
 
->>>>>>> 038840ab (Update.)
   return ContentMetadata
 }) satisfies QuartzComponentConstructor

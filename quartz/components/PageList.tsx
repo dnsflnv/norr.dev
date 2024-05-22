@@ -63,11 +63,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
                       class="internal tag-link"
                       href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
                     >
-<<<<<<< HEAD
-                      #{tag}
-=======
                       {tag}
->>>>>>> 038840ab (Update.)
                     </a>
                   </li>
                 ))}

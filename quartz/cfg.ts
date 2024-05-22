@@ -19,8 +19,6 @@ export type Analytics =
       websiteId: string
       host?: string
     }
-<<<<<<< HEAD
-=======
   | {
       provider: "goatcounter"
       websiteId: string
@@ -32,7 +30,6 @@ export type Analytics =
       apiKey: string
       host?: string
     }
->>>>>>> 038840ab (Update.)
 
 export interface GlobalConfiguration {
   pageTitle: string

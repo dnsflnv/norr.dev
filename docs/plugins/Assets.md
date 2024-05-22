@@ -9,11 +9,7 @@ This plugin emits all non-Markdown static assets in your content folder (like im
 Note that all static assets will then be accessible through its path on your generated site, i.e: `host.me/path/to/static.pdf`
 
 > [!note]
-<<<<<<< HEAD
-> For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
-=======
 > For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
->>>>>>> 038840ab (Update.)
 
 This plugin has no configuration options.
 

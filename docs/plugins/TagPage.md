@@ -7,11 +7,7 @@ tags:
 This plugin emits dedicated pages for each tag used in the content. See [[folder and tag listings]] for more information.
 
 > [!note]
-<<<<<<< HEAD
-> For information on how to add, remove or configure plugins, see the [[Configuration#Plugins|Configuration]] page.
-=======
 > For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
->>>>>>> 038840ab (Update.)
 
 This plugin has no configuration options.
 
@@ -20,9 +16,5 @@ The pages are displayed using the `defaultListPageLayout` in `quartz.layouts.ts`
 ## API
 
 - Category: Emitter
-<<<<<<< HEAD
-- Function name: `Plugin.AliasRedirects()`.
-=======
 - Function name: `Plugin.TagPage()`.
->>>>>>> 038840ab (Update.)
 - Source: [`quartz/plugins/emitters/tagPage.tsx`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/tagPage.tsx).
