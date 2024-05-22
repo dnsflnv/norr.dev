@@ -11,11 +11,28 @@
             "id": "d090f8ea5c02d47c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Software/Code Editors/Visual Studio Code/Font.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2bedb555272fe0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "766d1b68a0204a61",
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
         ]
@@ -140,8 +161,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d090f8ea5c02d47c",
+  "active": "e2bedb555272fe0f",
   "lastOpenFiles": [
+    "Software/Code Editors/Visual Studio Code/Font.md",
+    "Projects/index.md",
+    "contacts.md",
+    "index.md",
+    "Software/Version Control/git.md",
     "attachments/index/IMG-20240510222640855.jpg",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
     "attachments/Software/Code Editors/Visual Studio Code/Font",
@@ -150,10 +176,8 @@
     "attachments/Software",
     "attachments/index/IMG-20240510222903515.jpg",
     "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
-    "Software/Version Control/git.md",
     "Software/Version Control",
     "Dalarna.md",
-    "Software/Code Editors/Visual Studio Code/Font.md",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510225442242.png",
     "Software/Code Editors/Visual Studio Code/index.md",
     "Software/Code Editors/Visual Studio Code",
@@ -161,14 +185,11 @@
     "attachments/index",
     "attachments/index/IMG-20240510224838631.jpg",
     "attachments",
-    "Projects/index.md",
     "Projects",
     "Blog/index.md",
     "Blog/2024/index.md",
     "Blog/2024/04/index.md",
     "Blog/2024/03/index.md",
-    "contacts.md",
-    "index.md",
     "DSC_0936.jpg",
     "Contacts.md",
     "Blog/2024/03/Obsidian.md",

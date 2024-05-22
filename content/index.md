@@ -1,5 +1,5 @@
 ---
-title: Northern Digital Garden
+title: Start Page
 ---
 
 Web/App , HEMA fencer, MTBiker, and cat lover.
