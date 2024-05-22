@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Virtualisation/index.md",
+                "file": "Software/Virtualisation/Docker/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software/Virtualisation/index.md",
+                "file": "Software/Virtualisation/Docker/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software/Virtualisation/index.md",
+                "file": "Software/Virtualisation/Docker/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software/Virtualisation/index.md"
+                "file": "Software/Virtualisation/Docker/index.md"
               }
             }
           },
@@ -209,8 +209,10 @@
   },
   "active": "bd1e8598569979ba",
   "lastOpenFiles": [
-    "Software/Version Control/index.md",
+    "Software/Code Editors/Visual Studio Code/index.md",
+    "Software/Virtualisation/Docker/index.md",
     "Software/Virtualisation/index.md",
+    "Software/Version Control/index.md",
     "Software/Code Editors/index.md",
     "Software/index.md",
     "index.md",
@@ -232,7 +234,6 @@
     "Software/Version Control",
     "Dalarna.md",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510225442242.png",
-    "Software/Code Editors/Visual Studio Code/index.md",
     "Software/Code Editors/Visual Studio Code",
     "Software/Code Editors",
     "attachments/index",
