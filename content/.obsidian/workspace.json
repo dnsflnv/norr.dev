@@ -25,14 +25,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9a990b1e0db192b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "812aeabff0b94bcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd1e8598569979ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +174,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Software/Virtualisation/Docker/How docker works on different systems.md"
               }
             }
+          },
+          {
+            "id": "7e8ceed0e9c3147c",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -158,15 +203,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e2bedb555272fe0f",
+  "active": "bd1e8598569979ba",
   "lastOpenFiles": [
-    "Software/Code Editors/Visual Studio Code/Font.md",
-    "Projects/index.md",
-    "contacts.md",
     "index.md",
+    "Software/Virtualisation/Docker/How docker works on different systems.md",
+    "Software/Code Editors/Visual Studio Code/Font.md",
+    "contacts.md",
+    "Software/Virtualisation/Docker",
+    "Software/Virtualisation",
+    "Projects/index.md",
     "Software/Version Control/git.md",
     "attachments/index/IMG-20240510222640855.jpg",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
@@ -184,8 +233,6 @@
     "Software/Code Editors",
     "attachments/index",
     "attachments/index/IMG-20240510224838631.jpg",
-    "attachments",
-    "Projects",
     "Blog/index.md",
     "Blog/2024/index.md",
     "Blog/2024/04/index.md",
