@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Software/Virtualisation/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Software/Virtualisation/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Software/Virtualisation/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Software/Virtualisation/index.md"
               }
             }
           },
@@ -209,11 +209,15 @@
   },
   "active": "bd1e8598569979ba",
   "lastOpenFiles": [
+    "Software/Version Control/index.md",
+    "Software/Virtualisation/index.md",
+    "Software/Code Editors/index.md",
+    "Software/index.md",
+    "index.md",
     "contacts.md",
     "Software/Code Editors/Visual Studio Code/Font.md",
     "Software/Version Control/git.md",
     "Software/Virtualisation/Docker/How docker works on different systems.md",
-    "index.md",
     "Software/Virtualisation/Docker",
     "Software/Virtualisation",
     "Projects/index.md",
