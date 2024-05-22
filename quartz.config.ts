@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Dev I Norr",
+    pageTitle: "Northern Digital Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -88,4 +88,4 @@ const config: QuartzConfig = {
   },
 }
 
-export default config
+export default config;
