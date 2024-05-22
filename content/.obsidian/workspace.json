@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software/Virtualisation/Docker/How docker works on different systems.md"
+                "file": "index.md"
               }
             }
           },
@@ -209,14 +209,14 @@
   },
   "active": "bd1e8598569979ba",
   "lastOpenFiles": [
-    "index.md",
-    "Software/Virtualisation/Docker/How docker works on different systems.md",
-    "Software/Code Editors/Visual Studio Code/Font.md",
     "contacts.md",
+    "Software/Code Editors/Visual Studio Code/Font.md",
+    "Software/Version Control/git.md",
+    "Software/Virtualisation/Docker/How docker works on different systems.md",
+    "index.md",
     "Software/Virtualisation/Docker",
     "Software/Virtualisation",
     "Projects/index.md",
-    "Software/Version Control/git.md",
     "attachments/index/IMG-20240510222640855.jpg",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
     "attachments/Software/Code Editors/Visual Studio Code/Font",

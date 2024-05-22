@@ -1,11 +1,10 @@
 ---
 title: Start Page
 ---
-Nonlinear digital garden about web- and application development, CI/CD, HEMA-fencing, powerlifting, astronomy, neurobiology, productivity, time management, management, traveling, MTB, and cats.
+Nonlinear digital garden about web- and application development, CI/CD, HEMA-fencing, powerlifting, astronomy, neurobiology, productivity, time management, management, traveling, MTB, cats, and more random things.
 
-
-[Open: DSC_0936.jpg](attachments/index/IMG-20240510224838631.jpg)
 ![](attachments/index/IMG-20240510224838631.jpg)
 
 
-**[Contacts](contacts.md)**
+> [!NOTE]
+> **[Contacts](contacts.md)**

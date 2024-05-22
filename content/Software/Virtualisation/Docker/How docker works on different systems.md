@@ -1,4 +1,11 @@
-#docker #windows #linux #macos
+---
+tags:
+  - docker
+  - macos
+  - linux
+  - vm
+  - windows
+---
 ## Linux
 ```mermaid
 flowchart LR
