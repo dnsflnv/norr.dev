@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Northern Digital Garden",
+    pageTitle: "Notrhen Digital Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "google", tagID: "G-BGN0QWWTVG"
+      provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "norr.dev",
+    baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -88,4 +88,4 @@ const config: QuartzConfig = {
   },
 }
 
-export default config;
+export default config
