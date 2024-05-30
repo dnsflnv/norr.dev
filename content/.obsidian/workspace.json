@@ -42,33 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "812aeabff0b94bcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd1e8598569979ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software/Virtualisation/Docker/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software/Virtualisation/Docker/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software/Virtualisation/Docker/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software/Virtualisation/Docker/index.md"
+                "file": "index.md"
               }
             }
           },
@@ -207,10 +183,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd1e8598569979ba",
+  "active": "b9a990b1e0db192b",
   "lastOpenFiles": [
-    "Software/Code Editors/Visual Studio Code/index.md",
+    "Software/Virtualisation/Docker/How docker works on different systems.md",
     "Software/Virtualisation/Docker/index.md",
+    "Software/Code Editors/Visual Studio Code/index.md",
     "Software/Virtualisation/index.md",
     "Software/Version Control/index.md",
     "Software/Code Editors/index.md",
@@ -219,7 +196,6 @@
     "contacts.md",
     "Software/Code Editors/Visual Studio Code/Font.md",
     "Software/Version Control/git.md",
-    "Software/Virtualisation/Docker/How docker works on different systems.md",
     "Software/Virtualisation/Docker",
     "Software/Virtualisation",
     "Projects/index.md",
