@@ -20,14 +20,6 @@ export default (() => {
 
     return (
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGN0QWWTVG"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-BGN0QWWTVG');
-        </script>
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
