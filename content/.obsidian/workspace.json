@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/OpenGym.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Projects/OpenGym.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Projects/OpenGym.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,25 +150,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Projects/OpenGym.md"
               }
-            }
-          },
-          {
-            "id": "7e8ceed0e9c3147c",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +176,12 @@
   },
   "active": "b9a990b1e0db192b",
   "lastOpenFiles": [
+    "Projects/index.md",
+    "Projects/OpenGym.md",
+    "index.md",
+    "Untitled.md",
+    "Log",
+    "Blog",
     "attachments/index/IMG-20240803185511277.png",
     "Software/Virtualisation/Docker/How docker works on different systems.md",
     "Software/Virtualisation/Docker/index.md",
@@ -193,13 +190,11 @@
     "Software/Version Control/index.md",
     "Software/Code Editors/index.md",
     "Software/index.md",
-    "index.md",
     "contacts.md",
     "Software/Code Editors/Visual Studio Code/Font.md",
     "Software/Version Control/git.md",
     "Software/Virtualisation/Docker",
     "Software/Virtualisation",
-    "Projects/index.md",
     "attachments/index/IMG-20240510222640855.jpg",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
     "attachments/Software/Code Editors/Visual Studio Code/Font",
@@ -212,8 +207,6 @@
     "Dalarna.md",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510225442242.png",
     "Software/Code Editors/Visual Studio Code",
-    "Software/Code Editors",
-    "attachments/index",
     "attachments/index/IMG-20240510224838631.jpg",
     "Blog/index.md",
     "Blog/2024/index.md",

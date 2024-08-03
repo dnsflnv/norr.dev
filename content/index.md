@@ -1,8 +1,7 @@
 ---
-title: Start Page
+title: Dev I Norr
 ---
 ![](attachments/index/IMG-20240803185511277.png)
 
 
-> [!NOTE]
-> **[Contacts](contacts.md)**
+**[Contacts](contacts.md)**
