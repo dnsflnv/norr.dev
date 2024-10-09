@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Code Editors/Visual Studio Code/Font.md",
+                "file": "Articles/Software/Code Editors/Visual Studio Code/Font.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
+                "file": "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/OpenGym.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/OpenGym.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/OpenGym.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/OpenGym.md"
+                "file": "index.md"
               }
             }
           }
@@ -170,43 +170,42 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "b9a990b1e0db192b",
   "lastOpenFiles": [
-    "Projects/index.md",
     "Projects/OpenGym.md",
+    "attachments/Articles/Software/Code Editors/Visual Studio Code/Font",
+    "attachments/Articles/Software/Code Editors/Visual Studio Code",
+    "attachments/Articles/Software/Code Editors",
+    "attachments/Articles/Software",
+    "attachments/Articles",
+    "Articles",
+    "Projects/index.md",
     "index.md",
     "Untitled.md",
     "Log",
     "Blog",
     "attachments/index/IMG-20240803185511277.png",
-    "Software/Virtualisation/Docker/How docker works on different systems.md",
-    "Software/Virtualisation/Docker/index.md",
-    "Software/Code Editors/Visual Studio Code/index.md",
-    "Software/Virtualisation/index.md",
-    "Software/Version Control/index.md",
-    "Software/Code Editors/index.md",
-    "Software/index.md",
+    "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
+    "Articles/Software/Virtualisation/Docker/index.md",
+    "Articles/Software/Code Editors/Visual Studio Code/index.md",
+    "Articles/Software/Virtualisation/index.md",
+    "Articles/Software/Version Control/index.md",
+    "Articles/Software/Code Editors/index.md",
+    "Articles/Software/index.md",
     "contacts.md",
-    "Software/Code Editors/Visual Studio Code/Font.md",
-    "Software/Version Control/git.md",
-    "Software/Virtualisation/Docker",
-    "Software/Virtualisation",
+    "Articles/Software/Code Editors/Visual Studio Code/Font.md",
+    "Articles/Software/Version Control/git.md",
+    "Articles/Software/Virtualisation/Docker",
+    "Articles/Software/Virtualisation",
     "attachments/index/IMG-20240510222640855.jpg",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
-    "attachments/Software/Code Editors/Visual Studio Code/Font",
-    "attachments/Software/Code Editors/Visual Studio Code",
-    "attachments/Software/Code Editors",
-    "attachments/Software",
     "attachments/index/IMG-20240510222903515.jpg",
     "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
-    "Software/Version Control",
     "Dalarna.md",
-    "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510225442242.png",
-    "Software/Code Editors/Visual Studio Code",
+    "attachments/Articles/Software/Code Editors/Visual Studio Code/Font/IMG-20241009164441412.png",
     "attachments/index/IMG-20240510224838631.jpg",
     "Blog/index.md",
     "Blog/2024/index.md",
