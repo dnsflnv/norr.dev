@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d090f8ea5c02d47c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Software/Code Editors/Visual Studio Code/Font.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2bedb555272fe0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b9a990b1e0db192b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Projects/index.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Projects/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Projects/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Projects/index.md"
               }
             }
           }
@@ -159,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,6 +151,12 @@
   },
   "active": "b9a990b1e0db192b",
   "lastOpenFiles": [
+    "index.md",
+    "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
+    "Articles/Software/Code Editors/Visual Studio Code/Font.md",
+    "Articles/index.md",
+    "Articles/Software/index.md",
+    "contacts.md",
     "Projects/OpenGym.md",
     "attachments/Articles/Software/Code Editors/Visual Studio Code/Font",
     "attachments/Articles/Software/Code Editors/Visual Studio Code",
@@ -183,20 +165,15 @@
     "attachments/Articles",
     "Articles",
     "Projects/index.md",
-    "index.md",
     "Untitled.md",
     "Log",
     "Blog",
     "attachments/index/IMG-20240803185511277.png",
-    "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
     "Articles/Software/Virtualisation/Docker/index.md",
     "Articles/Software/Code Editors/Visual Studio Code/index.md",
     "Articles/Software/Virtualisation/index.md",
     "Articles/Software/Version Control/index.md",
     "Articles/Software/Code Editors/index.md",
-    "Articles/Software/index.md",
-    "contacts.md",
-    "Articles/Software/Code Editors/Visual Studio Code/Font.md",
     "Articles/Software/Version Control/git.md",
     "Articles/Software/Virtualisation/Docker",
     "Articles/Software/Virtualisation",
