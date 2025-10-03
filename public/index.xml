@@ -1,58 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Dev I Norr</title>
+      <title>The North remembers</title>
       <link>https://norr.dev</link>
-      <description>Last 10 notes on Dev I Norr</description>
+      <description>Last 10 notes on The North remembers</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Projects</title>
-    <link>https://norr.dev/Projects/</link>
-    <guid>https://norr.dev/Projects/</guid>
-    <description>Here is a list of my projects.</description>
-    <pubDate>Mon, 15 Apr 2024 19:31:55 GMT</pubDate>
+    <title>Articles</title>
+    <link>https://norr.dev/Articles/</link>
+    <guid>https://norr.dev/Articles/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:56:26 GMT</pubDate>
   </item><item>
     <title>Contacts</title>
     <link>https://norr.dev/contacts</link>
     <guid>https://norr.dev/contacts</guid>
-    <description> dennis @ norr.dev x.com/dvnorr .</description>
-    <pubDate>Mon, 15 Apr 2024 19:15:26 GMT</pubDate>
+    <description><![CDATA[ e-mail: norr.dev.33kgy @ passmail.net. ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:56:26 GMT</pubDate>
   </item><item>
-    <title>Dev I Norr — Home</title>
+    <title>Dev I Norr</title>
     <link>https://norr.dev/</link>
     <guid>https://norr.dev/</guid>
-    <description>Web/App , HEMA fencer, MTBiker, and cat lover. This is my digital garden (one more article) experiment. Contacts Blog updates Obsidian .</description>
-    <pubDate>Mon, 15 Apr 2024 19:15:26 GMT</pubDate>
+    <description><![CDATA[ Contacts • Projects • Articles . ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:56:26 GMT</pubDate>
   </item><item>
-    <title>March</title>
-    <link>https://norr.dev/Blog/2024/03/</link>
-    <guid>https://norr.dev/Blog/2024/03/</guid>
-    <description></description>
-    <pubDate>Mon, 15 Apr 2024 19:15:26 GMT</pubDate>
+    <title>Font</title>
+    <link>https://norr.dev/Articles/Software/Code-Editors/Visual-Studio-Code/Font</link>
+    <guid>https://norr.dev/Articles/Software/Code-Editors/Visual-Studio-Code/Font</guid>
+    <description><![CDATA[ JetBrains Mono is the best font for VS Code. www.jetbrains.com/lp/mono/ . ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:45:24 GMT</pubDate>
   </item><item>
-    <title>April</title>
-    <link>https://norr.dev/Blog/2024/04/</link>
-    <guid>https://norr.dev/Blog/2024/04/</guid>
-    <description></description>
-    <pubDate>Mon, 15 Apr 2024 19:15:26 GMT</pubDate>
+    <title>Visual Studio Code</title>
+    <link>https://norr.dev/Articles/Software/Code-Editors/Visual-Studio-Code/</link>
+    <guid>https://norr.dev/Articles/Software/Code-Editors/Visual-Studio-Code/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:45:24 GMT</pubDate>
   </item><item>
-    <title>2024</title>
-    <link>https://norr.dev/Blog/2024/</link>
-    <guid>https://norr.dev/Blog/2024/</guid>
-    <description></description>
-    <pubDate>Mon, 15 Apr 2024 19:15:26 GMT</pubDate>
+    <title>Code Editors</title>
+    <link>https://norr.dev/Articles/Software/Code-Editors/</link>
+    <guid>https://norr.dev/Articles/Software/Code-Editors/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:45:24 GMT</pubDate>
   </item><item>
-    <title>Blog</title>
-    <link>https://norr.dev/Blog/</link>
-    <guid>https://norr.dev/Blog/</guid>
-    <description></description>
-    <pubDate>Mon, 15 Apr 2024 19:15:26 GMT</pubDate>
+    <title>git</title>
+    <link>https://norr.dev/Articles/Software/Version-Control/git</link>
+    <guid>https://norr.dev/Articles/Software/Version-Control/git</guid>
+    <description><![CDATA[ Rebase git checkout main git pull origin main git checkout my_branch git rebase main git rebase --continue # + means force, overwrite changes git push origin +my_branch # If something goes wrong git rebase --abort Stash Hide all new changes, except new files. ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:45:24 GMT</pubDate>
   </item><item>
-    <title>Obsidian</title>
-    <link>https://norr.dev/Blog/2024/03/Obsidian</link>
-    <guid>https://norr.dev/Blog/2024/03/Obsidian</guid>
-    <description>Trying Quartz as a static site generator for my page and. Looks nice.</description>
-    <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
+    <title>Version Control</title>
+    <link>https://norr.dev/Articles/Software/Version-Control/</link>
+    <guid>https://norr.dev/Articles/Software/Version-Control/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:45:24 GMT</pubDate>
+  </item><item>
+    <title>How docker works on different systems</title>
+    <link>https://norr.dev/Articles/Software/Virtualisation/Docker/How-docker-works-on-different-systems</link>
+    <guid>https://norr.dev/Articles/Software/Virtualisation/Docker/How-docker-works-on-different-systems</guid>
+    <description><![CDATA[ Linux flowchart LR subgraph OS Linux Docker end No virtual machines, pivot_root is used for creating an isolated environment. ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:45:24 GMT</pubDate>
+  </item><item>
+    <title>Docker</title>
+    <link>https://norr.dev/Articles/Software/Virtualisation/Docker/</link>
+    <guid>https://norr.dev/Articles/Software/Virtualisation/Docker/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 09 Oct 2024 14:45:24 GMT</pubDate>
   </item>
     </channel>
   </rss>

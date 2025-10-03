@@ -8,18 +8,49 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d090f8ea5c02d47c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software/Code Editors/Visual Studio Code/Font.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Font"
+            }
+          },
+          {
+            "id": "e2bedb555272fe0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software/Virtualisation/Docker/How docker works on different systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "How docker works on different systems"
+            }
+          },
+          {
             "id": "b9a990b1e0db192b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/index.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -38,8 +69,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +88,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +130,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -102,10 +141,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -115,8 +155,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/index.md"
-              }
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
             }
           }
         ],
@@ -134,11 +183,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -151,46 +200,49 @@
   },
   "active": "b9a990b1e0db192b",
   "lastOpenFiles": [
-    "index.md",
-    "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
-    "Articles/Software/Code Editors/Visual Studio Code/Font.md",
-    "Articles/index.md",
-    "Articles/Software/index.md",
-    "contacts.md",
-    "Projects/OpenGym.md",
+    "attachments/Articles/Software/Code Editors/Visual Studio Code/Font/IMG-20241009164441412.png",
     "attachments/Articles/Software/Code Editors/Visual Studio Code/Font",
     "attachments/Articles/Software/Code Editors/Visual Studio Code",
     "attachments/Articles/Software/Code Editors",
     "attachments/Articles/Software",
     "attachments/Articles",
-    "Articles",
+    "Articles/Software/Virtualisation/Docker/index.md",
+    "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
+    "Articles/Software/Code Editors/Visual Studio Code/index.md",
+    "Articles/Software/Code Editors/Visual Studio Code/Font.md",
+    "Articles/Software/Virtualisation/index.md",
+    "Articles/Software/Virtualisation/Docker",
+    "Articles/Software/Version Control/index.md",
+    "Articles/Software/Version Control/git.md",
+    "Articles/Software/Code Editors/index.md",
+    "Articles/Software/Code Editors/Visual Studio Code",
+    "Articles/Software/index.md",
+    "Articles/Software/Virtualisation",
+    "Articles/Software/Version Control",
+    "Articles/Software/Code Editors",
+    "Articles/index.md",
+    "contacts.md",
+    "index.md",
+    "Projects/OpenGym.md",
     "Projects/index.md",
     "Untitled.md",
-    "Log",
-    "Blog",
     "attachments/index/IMG-20240803185511277.png",
-    "Articles/Software/Virtualisation/Docker/index.md",
-    "Articles/Software/Code Editors/Visual Studio Code/index.md",
-    "Articles/Software/Virtualisation/index.md",
-    "Articles/Software/Version Control/index.md",
-    "Articles/Software/Code Editors/index.md",
-    "Articles/Software/Version Control/git.md",
-    "Articles/Software/Virtualisation/Docker",
-    "Articles/Software/Virtualisation",
+    "Software/Virtualisation/Docker/How docker works on different systems.md",
+    "Software/Virtualisation/Docker/index.md",
+    "Software/Code Editors/Visual Studio Code/index.md",
+    "Software/Virtualisation/index.md",
+    "Software/Version Control/index.md",
+    "Software/Code Editors/index.md",
+    "Software/index.md",
+    "Software/Code Editors/Visual Studio Code/Font.md",
+    "Software/Version Control/git.md",
     "attachments/index/IMG-20240510222640855.jpg",
     "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510222640775.png",
     "attachments/index/IMG-20240510222903515.jpg",
     "attachments/Screenshot_2024-04-18-22-57-59-354_com.facebook.lite.jpg",
     "Dalarna.md",
-    "attachments/Articles/Software/Code Editors/Visual Studio Code/Font/IMG-20241009164441412.png",
+    "attachments/Software/Code Editors/Visual Studio Code/Font/IMG-20240510225442242.png",
     "attachments/index/IMG-20240510224838631.jpg",
-    "Blog/index.md",
-    "Blog/2024/index.md",
-    "Blog/2024/04/index.md",
-    "Blog/2024/03/index.md",
-    "DSC_0936.jpg",
-    "Contacts.md",
-    "Blog/2024/03/Obsidian.md",
-    "Astronomy/Untitled.md"
+    "DSC_0936.jpg"
   ]
 }
