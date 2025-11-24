@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "contacts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "contacts"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "contacts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for contacts"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "contacts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from contacts"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "contacts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of contacts"
             }
           },
           {
@@ -184,11 +184,12 @@
   },
   "active": "b9a990b1e0db192b",
   "lastOpenFiles": [
+    "Projects/OpenGym.md",
+    "Projects/RunstensSafari.md",
+    "index.md",
     "Projects/index.md",
     "Articles/index.md",
-    "index.md",
     "contacts.md",
-    "Projects/OpenGym.md",
     "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
     "Articles/Software/Code Editors/Visual Studio Code/Font.md",
     "Articles/Software/index.md",
