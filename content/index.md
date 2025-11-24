@@ -1,12 +1,11 @@
 ---
-title: Dev I Norr
+title: Digital Garden
 ---
+
+---
+
+**[Projects](Projects/index.md)** // **[Articles](Projects/index.md)** // **[Contacts](contacts.md)**
+
+---
+
 ![](attachments/index/IMG-20240803185511277.png)
-
----
-
-**[Contacts](contacts.md)** &bull; **[Projects](Projects/index.md)** &bull; **[Articles](Projects/index.md)**
-
----
-
-
