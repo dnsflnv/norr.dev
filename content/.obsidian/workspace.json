@@ -177,19 +177,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "omnisearch:Omnisearch": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9a990b1e0db192b",
+  "active": "af9bea90a65c44ef",
   "lastOpenFiles": [
+    "contacts.md",
     "Projects/OpenGym.md",
     "Projects/RunstensSafari.md",
     "index.md",
     "Projects/index.md",
     "Articles/index.md",
-    "contacts.md",
     "Articles/Software/Virtualisation/Docker/How docker works on different systems.md",
     "Articles/Software/Code Editors/Visual Studio Code/Font.md",
     "Articles/Software/index.md",
