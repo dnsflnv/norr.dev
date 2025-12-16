@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "contacts.md",
+                "file": "Projects/RunstensSafari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "contacts"
+              "title": "RunstensSafari"
             }
           }
         ]
@@ -183,7 +183,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af9bea90a65c44ef",
+  "active": "b9a990b1e0db192b",
   "lastOpenFiles": [
     "contacts.md",
     "Projects/OpenGym.md",
