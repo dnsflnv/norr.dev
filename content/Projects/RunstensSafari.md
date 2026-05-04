@@ -1,1 +1,0 @@
-https://runestonesafari.com - map of viking-age runestones.
