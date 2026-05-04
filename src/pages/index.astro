@@ -1,23 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-// const projects = [
-//   {
-//     name: "Open Source Tooling",
-//     description: "Practical libraries and utilities built in public.",
-//     status: "Active"
-//   },
-//   {
-//     name: "Experimental Side Projects",
-//     description: "Small bets on ideas worth validating fast.",
-//     status: "In progress"
-//   },
-//   {
-//     name: "Internal Automations",
-//     description: "Private helpers for workflows, ops, and productivity.",
-//     status: "Iterating"
-//   }
-// ];
+const projects = [
+  {
+    name: "Rune (Runestone Safari)",
+    description:
+      "Interactive runestone map with 6,815+ runestones, search, and offline caching.",
+    url: "https://github.com/norrdev/rune"
+  },
+  {
+    name: "OpenGym",
+    description:
+      "Cross-platform workout journal and private digital trainer with no tracking.",
+    url: "https://github.com/norrdev/OpenGym"
+  }
+];
 ---
 
 <Layout>
@@ -34,7 +31,7 @@ import Layout from "../layouts/Layout.astro";
     </p>
   </section>
 
-  <!-- <section class="section">
+  <section class="section">
     <h2>Projects</h2>
     <div class="grid">
       {
@@ -42,15 +39,17 @@ import Layout from "../layouts/Layout.astro";
           <article class="card">
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <span class="badge">{project.status}</span>
+            <a class="button-link" href={project.url} target="_blank" rel="noreferrer">
+              View on GitHub
+            </a>
           </article>
         ))
       }
     </div>
-  </section> -->
+  </section>
 
   <footer class="footer">
-    <a href="https://github.com/norrdev" target="_blank" rel="noreferrer">GitHub</a>
-    <a href="mailto:mail@norr.dev">mail@norr.dev</a>
+    <a class="button-link" href="https://github.com/norrdev" target="_blank" rel="noreferrer">GitHub</a>
+    <a class="button-link" href="mailto:mail@norr.dev">mail@norr.dev</a>
   </footer>
 </Layout>
